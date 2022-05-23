@@ -7,3 +7,7 @@
     # **
     # * / // %
     # + - 
+    #pow(x,y) -> 4**3 -> x=4, y=3
+    #{:>} ALINHADO A DIREITA  {:<} alinhado a esquerda {^} centralizado [dentro do print]
+    #{.xf} x = numero de casas decimais 
+    #
