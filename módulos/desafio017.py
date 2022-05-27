@@ -10,3 +10,6 @@ cateto_adj = int(input('O valor do cateto adjacente é: '))
 hipotenusa = sqrt((cateto_opo**2) + (cateto_adj**2))
 
 print('O comprimento da hipotenusa é {}'.format(hipotenusa))
+
+
+# math.hypot(cateto_opo, cateto_adj) 
