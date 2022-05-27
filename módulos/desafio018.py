@@ -1,12 +1,9 @@
-from math import sin
-from math import cos
-from math import tan
-from math import pi
+from math import radians,sin,cos,tan
 
-ang = int(input('Digite o ângulo: '))/(180/pi)
+ang = int(input('Digite o ângulo: '))
 
-seno = sin(ang)
-cosseno = cos(ang)
-tangente = tan(ang)
+seno = sin(radians(ang))
+cosseno = cos(radians(ang))
+tangente = tan(radians(ang))
 
-print('o seno é {:.2f}, o cosseno é {:.2f}, a tangente é {:.2f}'.format(ang, seno, cosseno, tangente))
+print('o seno é {:.2f}, o cosseno é {:.2f}, a tangente é {:.2f}'.format(seno, cosseno, tangente))
